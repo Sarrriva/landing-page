@@ -1,0 +1,142 @@
+body {
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    margin: 0;
+}
+
+.page {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-top {
+    padding-top: 0px;
+}
+
+.page-content {
+    width: 100%;
+}
+
+.page-gray {
+    background-color: #F6F6F6;
+}
+
+.centered {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: 2px solid #828282;
+}
+
+.photo-block {
+    margin-top: 47px;
+    margin-bottom: 45px;
+}
+
+.photo-block img {
+    width: 100%;
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1f1f1f;
+}
+
+.page-1-main-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
+
+#myphoto {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.page-1-main-block .block-item-myname {
+    font-size: 48px;
+}
+
+.page-1-main-block .block-item-lang {
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    height: 10px;
+}
+
+.skills-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+}
+
+.skill-item {
+    width: 166px;
+}
+
+.skill-item img {
+    height: 88px;
+}
+
+.skill-item .skill-name {
+    color: #828282;
+    margin-top: 27px;
+    margin-bottom: 40px;
+}
+
+.skill-item .stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-item .stars img {
+    height: 20px;
+}
+
+.portfolio-link {
+    padding-bottom: 45px;
+}
+
+.portfolio-link a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a.send-message-button {
+    border-radius: 20px;
+    background-color: #000000;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+
+a.send-message-button:hover {
+    color: #E2E2E2;
+}
+
+.socials-block {
+    width: 350px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.socials-block-icons {
+    display: flex;
+    justify-content: space-between;
+}
